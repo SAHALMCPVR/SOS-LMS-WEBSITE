@@ -396,28 +396,14 @@ The application follows the official **SOS Red & White** visual direction.
 # 📁 Repository Structure
 
 ```text
-SOS-School-of-Skills/
+SOS_LMS_Sahal/
 │
-├── .streamlit/
-│   └── config.toml
-│
-├── app.py
-│   └── Streamlit UI, routing, styling and interaction
-│
-├── sos.py
-│   └── OOP domain models and business logic
-│
-├── logo.png
-│   └── Official SOS logo
-│
-├── requirements.txt
-│   └── Python dependencies
-│
-├── DOCUMENTATION.md
-│   └── Extended technical documentation
-│
-└── README.md
-    └── Project documentation
+├── .gitignore            # Git exclusion rules
+├── app.py                # Streamlit UI, dashboard routing, custom CSS & interactions
+├── sos.py                # OOP domain models, business logic & activity coordinator
+├── logo.png              # Official School of Skills brand logo asset
+├── requirements.txt      # Python dependencies (streamlit, pandas)
+└── README.md             # Complete project documentation & architecture guide
 ```
 
 ---
@@ -458,8 +444,8 @@ Make sure you have:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repository>.git
-cd <your-repository>
+git clone https://github.com/SAHALMCPVR/SOS-LMS-WEBSITE.git
+cd SOS-LMS-WEBSITE
 ```
 
 ---
