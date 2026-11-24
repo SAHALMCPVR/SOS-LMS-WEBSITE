@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>SOS — School of Skills | Academic Governance & LMS</title>
+  <link rel="icon" type="image/png" href="./logo.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/browser@1.12.3/build/stlite.css" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@stlite/browser@1.12.3/build/stlite.js"></script>
+</head>
+<body>
+  <streamlit-app src="./app.py">
+    <app-file name="sos.py" url="./sos.py"></app-file>
+    <app-file name="logo.png" url="./logo.png"></app-file>
+    <app-requirements>
+      pandas
+    </app-requirements>
+  </streamlit-app>
+</body>
+</html>

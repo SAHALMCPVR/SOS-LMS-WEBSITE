@@ -399,6 +399,8 @@ The application follows the official **SOS Red & White** visual direction.
 SOS_LMS_Sahal/
 │
 ├── .gitignore            # Git exclusion rules
+├── index.html            # WebAssembly (Stlite) runner for instant 1-click Vercel deployment
+├── vercel.json           # Vercel configuration for static routing & clean URLs
 ├── app.py                # Streamlit UI, dashboard routing, custom CSS & interactions
 ├── sos.py                # OOP domain models, business logic & activity coordinator
 ├── logo.png              # Official School of Skills brand logo asset
