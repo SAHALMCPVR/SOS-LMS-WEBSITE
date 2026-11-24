@@ -1,0 +1,10 @@
+# Ignore files that trigger Vercel Python Serverless function detection
+app.py
+requirements.txt
+
+# Development & cache files
+venv/
+.venv/
+__pycache__/
+*.pyc
+.git
